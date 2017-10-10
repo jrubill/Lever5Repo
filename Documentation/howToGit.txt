@@ -1,0 +1,21 @@
+
+clone (put a new repository on your system)
+    git clone https://github.com/username/repositroy
+
+add your changes to the repository
+    git add .
+
+commit changes to the repository
+    git commit -m 'put your commit message here'
+
+push your changes to the repository
+    git push
+
+pull changes from the repository
+    git pull
+
+General use for repository
+  git pull
+  git add .
+  git commit -m 'commit message'
+  git push
