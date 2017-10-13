@@ -12,4 +12,4 @@ all:
 	$(CC) $(CFLAGS) $(SRC) $(TARGET)
 
 clean:
-	rm -f *.o lab3
+	rm -f *.o program
