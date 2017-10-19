@@ -1,0 +1,13 @@
+#include "Ship.h"
+
+Ship::Ship() : x(0), y(0){} // can only do this with constructors
+
+Ship::~Ship() {
+  // don't worry about this
+}
+
+Ship::Ship(const Ship &other) {
+  // don't worry about this
+}
+
+Ship::Ship(int a, int b) : x(a), y(b) {}

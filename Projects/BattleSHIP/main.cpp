@@ -18,16 +18,16 @@ void board() {
 //array setup
 
 for(int i = 0; i < 10; i++) {
-for(int j = 0; j < 10; j++) {
-  if(coord1 == i && coord2 == j) {
-  if(coord1 == 3 && coord2 == 5) {
-    array1[i-1][j-1] = 3;
-  };
-} else {
- array1[i][j] = 0;
-};
-};
-};
+  for(int j = 0; j < 10; j++) {
+    if(coord1 == i && coord2 == j) {
+      if(coord1 == 3 && coord2 == 5) {
+        array1[i-1][j-1] = 3;
+      }
+      } else {
+        array1[i][j] = 0;
+      }
+    }
+  }
 }
 
 
@@ -36,11 +36,11 @@ void printBoard() {
 //This Prints the Board
 
 for(int i = 0; i < 10; i++) {
-for(int j = 0; j < 10; j++) {
-  std::cout << array1[i][j];
-};
+  for(int j = 0; j < 10; j++) {
+    std::cout << array1[i][j];
+  }
   std::cout << "\n";
-};
+  }
 }
 
 

@@ -9,9 +9,11 @@ private:
   int y;
 
 public:
-  Ship();
-  ~Ship();
-  Ship(const Ship&);
+  Ship();           // default constructor
+  ~Ship();          // destructor
+  Ship(const Ship&);// copy constructor
+  Ship(int,int);
+
 
 };
 
