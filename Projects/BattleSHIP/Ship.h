@@ -13,6 +13,8 @@ public:
   ~Ship();          // destructor
   Ship(const Ship&);// copy constructor
   Ship(int,int);
+  int getX();
+  int getY();
 
 
 };
