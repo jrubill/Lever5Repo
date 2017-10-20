@@ -3,6 +3,8 @@
 #ifndef __SHIP_H__
 #define __SHIP_H__
 
+#include <iostream>
+
 class Ship {
 private:
   int x;

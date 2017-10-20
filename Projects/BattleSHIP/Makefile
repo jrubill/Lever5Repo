@@ -11,3 +11,6 @@ all:
 
 clean:
 	rm -f *.o Battleship
+
+run:
+	./Battleship

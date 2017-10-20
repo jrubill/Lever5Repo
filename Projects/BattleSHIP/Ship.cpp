@@ -1,6 +1,8 @@
 #include "Ship.h"
 
-Ship::Ship() : x(0), y(0) {} // can only do this with constructors
+Ship::Ship() : x(0), y(0) {
+  std::cout << "Ship created\n";
+} // can only do this with constructors
 
 Ship::~Ship() {
   // don't worry about this
