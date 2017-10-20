@@ -19,6 +19,7 @@ public:
   Ship(int,int,int);
   int getX();
   int getY();
+  int getSize();
 
 
 };
