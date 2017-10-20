@@ -14,6 +14,8 @@ Ship::Ship(const Ship &other) {
 
 Ship::Ship(int a, int b) : x(a), y(b) {}
 
+Ship::Ship(int a, int b, int c) : x(a), y(b), size(c) {}
+
 int Ship::getX() { return x; }
 
 int Ship::getY() { return y; }
