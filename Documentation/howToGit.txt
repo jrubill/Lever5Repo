@@ -19,3 +19,8 @@ General use for repository
   git add .
   git commit -m 'commit message'
   git push
+
+If there is corruption:
+find .git/objects/ -type f -empty | xargs rm
+git fetch -p
+git fsck --full
