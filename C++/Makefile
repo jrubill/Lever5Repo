@@ -6,10 +6,13 @@ CFLAGS = -Wall -std=c++11
 
 SRC = *.cpp
 
-TARGET = -o program
+TARGET = program
 
 all:
-	$(CC) $(CFLAGS) $(SRC) $(TARGET)
+	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
 
 clean:
 	rm -f *.o program
+
+run:
+	./$(TARGET)
